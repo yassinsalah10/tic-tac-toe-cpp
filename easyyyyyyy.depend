@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1735935899 source:c:\users\ahmed\downloads\new folder (2)\easyyyyyyy\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<time.h>
+	<windows.h>
+	<MMsystem.h>
+	<unistd.h>
+	<conio.h>
+	<graphics.h>
+
+1789942665 source:c:\users\lenovo\onedrive\desktop\project4\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<time.h>
+	<windows.h>
+	<MMsystem.h>
+	<conio.h>
+	<graphics.h>
+

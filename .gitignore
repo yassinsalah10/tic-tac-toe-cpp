@@ -1,0 +1,17 @@
+# Code::Blocks build output
+/bin/
+/obj/
+
+# Compiled Windows binaries
+*.exe
+*.o
+*.obj
+*.depend
+*.layout
+
+# IDE and operating system files
+.vscode/
+.vs/
+*.user
+Thumbs.db
+Desktop.ini

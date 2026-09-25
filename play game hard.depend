@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1735928582 source:c:\users\lenovo\onedrive\desktop\project4\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<time.h>
+	<windows.h>
+	<MMsystem.h>
+	<conio.h>
+	<graphics.h>
+

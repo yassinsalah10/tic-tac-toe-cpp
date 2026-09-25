@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1735927345 source:c:\users\ahmed\downloads\new folder (2)\project4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<time.h>
+	<windows.h>
+	<MMsystem.h>
+	<unistd.h>
+	<conio.h>
+
+1790226995 source:c:\users\lenovo\onedrive\desktop\project4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<time.h>
+	<windows.h>
+	<MMsystem.h>
+	<unistd.h>
+	<conio.h>
+
