@@ -1,33 +1,37 @@
-# Tic-Tac-Toe Game in C++
+## 🎯 Project Highlights
 
-A Windows desktop Tic-Tac-Toe game with a graphical menu and three ways to play: Easy, Hard, and local Two-Player.
+### Hard AI - The Unbeatable Opponent
+The Hard mode uses the **Minimax algorithm** - a game theory algorithm 
+that evaluates every possible move and chooses the optimal one.
 
-## Features
+**Result:** The Hard AI never loses. Ever.
 
-- Easy mode against the computer
-- Hard mode against the computer, using the minimax algorithm
-- Local two-player mode
-- Graphical menu built with the Windows API and bitmap assets
+### Smart GUI Launcher
+Built with Windows API, the launcher features:
+- Professional button layout with custom bitmap graphics
+- Responsive window sizing
+- Clean, modern interface
 
-## Built with
+### Complete Game Implementation
+All three modes track wins, allow multiple rounds, and provide 
+a smooth gaming experience.
 
-- C and C++
-- Windows API
-- Code::Blocks project files
+---
 
-## Project files
+## 🔬 Technical Deep Dive
 
-- `main.c` — graphical menu and mode launcher
-- `maineasyyyyyyyyyyy.cpp` — easy computer mode
-- `main.cpp` — hard computer mode and minimax logic
-- `maintwoplayers.cpp` — local two-player mode
-- `*.bmp` — menu graphics
-- `*.cbp` — Code::Blocks project files
+### Minimax Algorithm Explained
+The Hard AI uses Minimax to:
+1. Generate all possible board states
+2. Score each state (winning = +10, losing = -10, draw = 0)
+3. Choose moves that maximize AI's score / minimize player's score
+4. Never make a losing move
 
-## Build and run
+**Time Complexity:** O(9!) worst case, optimized with pruning
 
-This project was created for Windows and Code::Blocks. Open the relevant `.cbp` project in Code::Blocks, build the mode you want, and run it from the project directory so the bitmap assets can be found. The graphical menu launches the game modes using executable paths configured in the source, so those paths may need adjusting to match your local build output.
+### Graphics Implementation
+- **BGI Library:** Handles all graphics rendering
+- **Window API:** Manages GUI launcher and window events
+- **Bitmap Assets:** Professional button graphics (3 custom BMP files)
 
-## Demo
-
-See the LinkedIn post for a video showing Easy, Hard, and Two-Player gameplay.
+### Multi-File Architecture
